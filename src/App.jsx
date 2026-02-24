@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Taskform from './components/Taskform'
-import Tasklist from './components/Tasklist'
 
 const App = () => {
   return (
@@ -10,8 +9,6 @@ const App = () => {
       <div className=' max-w-xl w-full bg-white rounded-2xl shadow-lg p-6'>
         <Navbar />
         <Taskform />
-        <Tasklist />
-
       </div>
     </div>
   )
